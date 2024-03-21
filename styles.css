@@ -1,0 +1,16 @@
+*, *::after, *::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.left-column{
+
+  width: 25vw;
+  height: 100vh;
+}
+
+.right-column{
+  width: 75vw;
+  height: 100vh;
+}
