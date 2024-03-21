@@ -46,10 +46,16 @@
 #logo-text{
   font-family: "Norse-Bold", sans-serif;
   font-size: 60px;
+  color: white;
 }
 
 #credit-div{
   padding-top: 95%; /* Reminder */
-  color: white;
+  color: rgb(255, 255, 255, 0.8);
   text-align: center;
+  font-size: small;
+}
+
+a{ 
+  color: rgb(255, 255, 255, 0.8);
 }
