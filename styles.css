@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  display: flex;
+  flex-direction: row;
+}
+
 @font-face {
   font-family: 'Norse Bold';
   src: url(assets/Norse-Bold.otf);
@@ -20,6 +25,8 @@
 }
 
 .right-column{
+  display: flex;
+  flex-direction: column;
   width: 65vw;
   height: 100vh;
 }
@@ -58,4 +65,21 @@
 
 a{ 
   color: rgb(255, 255, 255, 0.8);
+}
+
+.header{
+  height: 37%;
+  width: 100%;
+  background-color: rgba(228, 226, 226, 0.5);
+}
+
+.form-conter{
+  height: 31.5%;
+  width: 100%;
+}
+
+.footer{
+  height: 31.5%;
+  width: 100%;
+  background-color: aquamarine;
 }
