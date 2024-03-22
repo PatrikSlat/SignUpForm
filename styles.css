@@ -70,10 +70,22 @@ a{
 .header{
   height: 37%;
   width: 100%;
-  background-color: rgba(228, 226, 226, 0.5);
+  background-color: rgba(228, 226, 226, 0.2);
 }
 
-.form-conter{
+#header-text{
+  color: black;
+  font-size: 20px;
+  font: bolder;
+  text-align: left;
+}
+
+#text-div{
+  padding-top: 125px;
+  padding-left: 37px;
+}
+
+.form-content{
   height: 31.5%;
   width: 100%;
 }
@@ -81,5 +93,5 @@ a{
 .footer{
   height: 31.5%;
   width: 100%;
-  background-color: aquamarine;
 }
+
