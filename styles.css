@@ -63,7 +63,7 @@ body{
   font-size: small;
 }
 
-a{ 
+#credit-text{ 
   color: rgb(255, 255, 255, 0.8);
 }
 
@@ -94,6 +94,8 @@ a{
 }
 
 .footer{
+  display: flex;
+  flex-direction: column;
   height: 31.5%;
   width: 100%;
   background-color: rgba(228, 226, 226, 0.2);
@@ -131,9 +133,10 @@ a{
 }
 
 #form-text{
+  margin-top: 10px;
   margin-left: 40px;
   font-size: 1.5em;
-  color: rgb(17, 15, 15);
+  color: rgb(57, 57, 57);
 }
 
 input, label {
@@ -143,4 +146,24 @@ input, label {
 
 .left-form > div, .right-form > div{
   margin-top: 15px;
+}
+
+.createBtn{
+  height: 45px;
+  width: 200px;
+  color: white;
+  border: 0px;
+  background-color: #596D48;
+  border-radius: 8px;
+  font-size: medium;
+}
+
+.footer > div{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+#login{
+  color: #596D48;
+  text-decoration: none;
 }
