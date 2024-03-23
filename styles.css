@@ -87,6 +87,7 @@ a{
 
 .form-content{
   display: flex;
+  flex-direction: column;
   height: 31.5%;
   width: 100%;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -100,5 +101,46 @@ a{
 
 .form-layout{
   display: flex;
+  flex-direction: row;
+}
+
+.right-form{
+  display: flex;
   flex-direction: column;
+  margin-left: 50px;
+}
+
+.left-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.left-form >div > input, .right-form >div > input{
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.left-form >div > label, .right-form >div > label{
+  text-transform: uppercase;
+  font-size: small;
+  color: rgb(29, 28, 28);
+}
+
+#form-text{
+  margin-left: 40px;
+  font-size: 1.5em;
+  color: rgb(17, 15, 15);
+}
+
+input, label {
+  display:block;
+}
+
+
+.left-form > div, .right-form > div{
+  margin-top: 15px;
 }
